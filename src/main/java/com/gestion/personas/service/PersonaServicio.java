@@ -8,8 +8,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.validation.BindingResult;
-
-import com.gestion.personas.DTO.PersonasDTO;
 import com.gestion.personas.excepciones.ApiRequestException;
 import com.gestion.personas.excepciones.ApiRequestExceptionValid;
 import com.gestion.personas.modelo.Persona;
@@ -19,11 +17,9 @@ import com.gestion.personas.repository.PersonaRepositorio;
 public class PersonaServicio {
 	
 	@Autowired
-	private PersonaRepositorio repositorio;
+	private PersonaRepositorio repositorio;	
 	
-	
-	private PersonasDTO personasDTO;
-	
+
 	public ResponseEntity<List<Persona>> getAllData(List<Persona> lista){
 		if(lista.isEmpty() || lista == null) {
 			throw new ApiRequestException("No hay usuarios en la base");			 

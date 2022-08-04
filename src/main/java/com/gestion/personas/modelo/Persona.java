@@ -26,7 +26,7 @@ public class Persona {
 	@Column(name = "p_nombre", nullable = false)
 	private String p_nombre;
 	
-	
+	@NotEmpty
 	@Column(name = "s_nombre", nullable = false)
 	private String s_nombre;
 	

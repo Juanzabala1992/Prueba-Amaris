@@ -8,11 +8,11 @@
 		<version>2.6.7</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.gestion.empleados</groupId>
-	<artifactId>gestion-empleados-backend</artifactId>
+	<groupId>com.gestion.personas</groupId>
+	<artifactId>gestion-personas-backend</artifactId>
 	<version>1.0</version>
-	<name>gestion-empleados-backend</name>
-	<description>Gestion de empleados - Backend</description>
+	<name>gestion-personas-backend</name>
+	<description>Gestion de personas - Backend</description>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
